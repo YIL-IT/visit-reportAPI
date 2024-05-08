@@ -8,7 +8,7 @@ async function bootstrap() {
     app.setGlobalPrefix('api/');
     const options = new swagger_1.DocumentBuilder()
         .setTitle('Training')
-        .setDescription('GETster.tech Training')
+        .setDescription('')
         .setVersion('1.0')
         .addBearerAuth({
         type: 'http',
