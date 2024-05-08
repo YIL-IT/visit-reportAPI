@@ -18,7 +18,7 @@ import { Insertdetails, Insertempdetails } from 'src/models/dto/user.dto';
 export class TestController {
   constructor(private testservice: TestService) {}
 
-  //Get Method
+
 
 
 
