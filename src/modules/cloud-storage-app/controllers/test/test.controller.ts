@@ -56,6 +56,9 @@ export class TestController {
   //   }
   // }
 
+
+  
+
   @Post('insert-qr-codes')
   async InsertQrCodes(
     @Body() details: Insertdetails,
